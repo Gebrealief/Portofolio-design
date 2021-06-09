@@ -1,0 +1,28 @@
+html{
+    background-color: #5D9FA2;
+}
+body{
+    background-color: #5D9FA2;
+}
+.card {
+    display:inline-block;
+}
+img{
+    height:100px;
+    
+}
+
+.inner{
+  overflow: hidden;
+}
+.inner img{
+    transition: all cubic-bezier(1, 0, 0, 1);
+    height:180px;
+}
+.inner:hover img{
+   transform: scale(1.5);
+}
+.container{
+ height: 100px;
+ margin-top: 20px;
+}
